@@ -1,5 +1,5 @@
-<template>
-  <TopHeader></TopHeader>
+<!-- <template>
+
   <nav class="mt-4">
     <div>
       <h4>Exclusive</h4>
@@ -13,7 +13,7 @@
     <div class="cartContainer">
     <div class="searchbox" >
       <input type="text" class="px-3" placeholder="What are you looking for?">
-      <span><i class="fa-solid fa-magnifying-glass text-center mt-2 mx-4 search"></i>
+      <span><i class="fa-solid fa-magnifying-glass text-center mt-2 mx-4"></i>
       </span>
     </div>
     
@@ -30,23 +30,12 @@
       <path d="M10 16.6667H25.59C25.7056 16.6667 25.8177 16.6267 25.9072 16.5535C25.9966 16.4802 26.0579 16.3782 26.0806 16.2648L27.8806 7.26479C27.8951 7.19222 27.8934 7.11733 27.8755 7.04552C27.8575 6.97371 27.8239 6.90678 27.7769 6.84956C27.73 6.79234 27.6709 6.74625 27.604 6.71462C27.5371 6.68299 27.464 6.66661 27.39 6.66666H8" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </span>
-    <span class="profile ms-2 user">
-      <i class="fa-solid fa-user"></i>
-    </span>
   
     </div>
   </nav>
-   <router-view/>
  
 </template>
-<script>
-import TopHeader from "./components/TopHeader.vue"
-  export default {
-  components: {
-      TopHeader,
-    }
-  }
-</script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -59,25 +48,6 @@ nav{
   display:flex;
   flex-direction:row;
   justify-content:space-evenly;
-}
-.routeContainer .route:hover{
-  color:#DB4444;
-}
-.profile{
-  position:relative;
-  width: 30px;
-  height:30px;
-  border: 2px solid #303030;
-  border-radius: 50%;
-}
-.fa-user{
-  position: absolute;
-  top: 5px;
-  margin-left: 7px;
-  font-size: 15px;
-  color:#8e8b8b
-
-  
 }
 .routeContainer .route{
   color:#000;
@@ -108,27 +78,6 @@ input{
 nav .route.router-link-exact-active {
    color:#DB4444;
   }
-   .search{
-    cursor: pointer;
-    transition: .3s all;
-   }
-  .fav, .cart, .user{
-    cursor: pointer;
-    transition: .3s all;
-  }
-   .fav:hover{
-    transform: scale(.9)
-   }
-   .cart:hover{
-    transform: scale(.9)
-   }
-   .user:hover{
-    transform:scale(.9)
-   }
-   .search:hover{
-    transform: scale(.9)
-   }
-  
 @media screen and (max-width: 960px){
   nav{
     display:flex;
@@ -151,10 +100,9 @@ nav .route.router-link-exact-active {
   }
   .fav, .cart{
     width:30px;
-    height:30px;
-  
+    height:30px
   }
   
   
 }
-</style>
+</style> -->
