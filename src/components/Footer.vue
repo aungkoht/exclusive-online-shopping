@@ -142,6 +142,8 @@ export default {
       background-color: transparent;
       resize: none;
       outline: none;
+      color: #fff;
+      /* font-size: 14px; */
       /* border:1px solid #fff; */
    }
    .sendBtn{
@@ -177,6 +179,7 @@ export default {
       right: 20px;
       width:140px;
       height:auto;
+      cursor: pointer;
       
    }
    .appstore{
@@ -184,6 +187,7 @@ export default {
       right:25px;
       width:125px;
       height: auto;
+      cursor: pointer;
 
    }
   

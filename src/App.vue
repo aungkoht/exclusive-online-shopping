@@ -37,12 +37,15 @@
     </div>
   </nav>
    <router-view/>
+   <Footer></Footer>
  
 </template>
 <script>
+import Footer from './components/Footer'
 import TopHeader from "./components/TopHeader.vue"
   export default {
   components: {
+    Footer,
       TopHeader,
     }
   }
