@@ -9,12 +9,9 @@
    <OurProducts></OurProducts>
    <NewArrival></NewArrival>
    <Services></Services>
-   <Footer></Footer>
 </template>
 
 <script>
-
-import Footer from '../components/Footer'
 import Services from '../components/Services'
 import NewArrival from '../components/NewArrival'
 import OurProducts from '../components/OurProducts'
@@ -27,7 +24,6 @@ import BodySection from '../components/BodySection'
 import HeadSection from '../components/HeadSection'
 export default {
   components: {
-    Footer,
     Services,
     NewArrival,
     OurProducts,

@@ -1,6 +1,6 @@
 <template>
-   <div class="mt-5">
-         <div class="d-flex">
+   <div class="mt-5 ourProducts">
+         <div class="d-flex ">
             <div class="block"></div> 
             <span class="ms-4" style="font-size: 16px; font-weight:600; line-height:20px;color:#DB4444">Our Products</span>
          </div>
@@ -355,7 +355,7 @@
       </div>
       
    </div>
-   <div class="text-center my-4">
+   <div class="text-center my-5">
       <button class="productsViewBtn ">View All Products</button>
    </div>
 </template>
@@ -367,6 +367,9 @@ export default {
 </script>
 
 <style scoped>
+.ourProducts{
+   margin-left: -60px;
+}
 .SaleItem{
    object-fit: cover;
 }
@@ -398,6 +401,9 @@ export default {
       margin: 5px;
       cursor: pointer;
       transition: .5s all;
+   }
+   .card{
+      margin: 30px;
    }
 
    .new{
@@ -431,6 +437,9 @@ export default {
   }
    
    @media screen and (max-width:980px){
+      .ourProducts{
+         margin-left: 10px;
+      }
       .block{
          margin-left: 20px;
       }

@@ -96,7 +96,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
    .footer{
       margin-top: 80px;
       display: flex;
@@ -130,6 +130,10 @@ export default {
       font-weight: 300;
       line-height: 34px;
       color: #fff;
+      cursor: pointer;
+   }
+   .bodyText:hover{
+      opacity: 0.5;
    }
    .mailContainer{
       width: 230px;

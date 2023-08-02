@@ -131,6 +131,7 @@ export default {
     cursor: pointer;
     padding: 16px 122px;
     border: none;
+    border-radius: 4px;
     background-color: #DB4444;
     color: #fafafa;
   }
@@ -141,6 +142,7 @@ export default {
     padding:16px 85px;
     margin-top: 20px;
     cursor: pointer;
+    border-radius: 4px;
 
   }
   .questionsCon{

@@ -1,7 +1,7 @@
 <template>
    <section>              
         <div class="cateSec mt-3">
-                <div class="container ">
+                <!-- <div class="container "> -->
                 <div class=" d-flex row">
                     <div class=" row categories col-lg-3 col-sm-6 col-md-8"  >
                         <div class="mt-4 ">
@@ -57,7 +57,7 @@
                             </div>
                     </div>
                 </div>
-            </div>
+            <!-- </div> -->
         </div>
    </section>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex justify-content-center mt-5">
+  <div class="d-flex justify-content-center mt-5 allCategories">
    <div class="row">
       <!-- phone -->
       <div class="col-3 col-lg-2 iconCont">
@@ -101,6 +101,9 @@ export default {
 </script>
 
 <style scoped>
+.allCategories{
+   margin-left: -150px;
+}
       .iconCont{
          width: 160px;
          height: 130px;
@@ -116,6 +119,10 @@ export default {
          transform: scale(1.1);
       }
       @media screen and (max-width: 980px){
+         .allCategories{
+            margin-left: 40px;
+            margin: 0 auto;
+         }
          .iconCont{
             margin: 2px;
          }

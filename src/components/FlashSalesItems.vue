@@ -1,6 +1,6 @@
 <template>
   <div class="flashSalesItemsContainer d-flex ">
-      <div class="card shadow ms-3 my-3">
+      <div class="card shadow ms-3 my-3 ">
          <div class="cardHeaderContainer">
                <div class="card-header">
                   <img class="SaleItem" src="https://s3-alpha-sig.figma.com/img/5d5c/2e52/50752d55f8b60f2aa2923183dadbc135?Expires=1691366400&Signature=Jnf9QGe2VqesvmLYfu4NJz1HlWzvMiYYVRgWx3yJ6MPn3MsxlMUSn4He4RnImeMgUYUZUb2tBeVRE~fpVsdnCg~40UKVtdJzd0jQ4VZlQTNcWXDhVPiJywD4P3-E~EG1VYu3IIkMjPNK56gSymYvFe9jB0xZNMsrnGotL-O1kBYg2pRYEzP05uUcwYZWo6ag4~~~yZumINdEJX4bUBIfckpPuzjBEzYOUkF-F8LDAKtoY-GqL8tFrwLUQbgGmJakiXL3gRi3nhEYctkRtfJIZHqoIH53EVMmUn6GAng4TYCxxxXTdRCkEELJ9IbK5UQWBzTxRCpelVkP7ZhRCaBZpw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="">
@@ -193,20 +193,21 @@ export default {
 }
 </script>
 
-<style>
+<style >
 .flashSalesItemsContainer{
    display:flex;
    flex-direction: row;
    margin-top:50px;
-   margin-left:90px;
+   /* margin-left:90px; */
    overflow: hidden;
 }
 .SaleItem{
    width:142px;
    height:132px;
-   margin-left:20px;
+   margin-left:30px;
    
 }
+
 .addCart{
    background-color:#000;
    color:#fff;
@@ -312,7 +313,7 @@ export default {
 @media screen and (max-width:980px){
    .flashSalesItemsContainer{
       flex-direction: column;
-      margin-left:20px;
+      /* margin-left:20px; */
       flex-wrap: wrap;
    }
    .SaleItem{

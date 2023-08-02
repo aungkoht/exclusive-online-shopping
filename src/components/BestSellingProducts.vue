@@ -4,7 +4,7 @@
             <div class="block"></div> 
             <span class="ms-4" style="font-size: 16px; font-weight:600; line-height:20px;color:#DB4444">This Month</span>
          </div>
-         <div class="d-flex justify-content-between">
+         <div class="d-flex justify-content-between bestSelling">
             <div class="browseCate mt-4">Best Selling Products</div> 
             <div class="d-flex  mt-3">
                <button class="viewAllButton">View All</button>
@@ -193,13 +193,16 @@ export default {
 }
 </script>
 
-<style>
+<style >
     .block{
       width: 20px;
       height:40px;
       border-radius:5px;
       background-color: #DB4444;
-      margin-left:80px;
+      margin-left:20px;
+   }
+   .bestSelling{
+      margin-left: -55px;
    }
    .browseCate{
       font-size:30px;
@@ -228,6 +231,9 @@ export default {
    @media screen and (max-width:980px){
       .block{
          margin-left: 20px;
+      }
+      .bestSelling{
+         margin-left: 5px;
       }
       .browseCate{
          margin-left:20px;

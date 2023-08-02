@@ -33,7 +33,7 @@ export default {
 
 <style scoped>
    .bodyContainer{
-      margin-left:95px;
+      margin-left:25px;
       margin-top: 100px;
    }
    .today{

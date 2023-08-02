@@ -1,15 +1,17 @@
 <template>
    <div class="mt-5">
-         <div class="d-flex">
-            <div class="block"></div> 
-            <span class="ms-4" style="font-size: 16px; font-weight:600; line-height:20px;color:#DB4444">Categories</span>
-         </div>
-         <div class="d-flex justify-content-between">
-            <div class="browseCate mt-4">Browse By Category</div> 
-            <div class="d-flex arrsCont mt-3">
-               <div class="leftCon"><i class="fa-solid fa-arrow-left lfArr"></i></div>
-               <div class="rightCon"><i class="fa-solid fa-arrow-right riArr"></i></div>
-            </div>  
+         <div class="categoryCont">
+            <div class="d-flex">
+               <div class="block"></div> 
+               <span class="ms-4" style="font-size: 16px; font-weight:600; line-height:20px;color:#DB4444">Categories</span>
+            </div>
+            <div class="d-flex ">
+               <div class="browseCate mt-4">Browse By Category</div> 
+               <div class="d-flex arrsCont mt-3">
+                  <div class="leftCon"><i class="fa-solid fa-arrow-left lfArr"></i></div>
+                  <div class="rightCon"><i class="fa-solid fa-arrow-right riArr"></i></div>
+               </div>  
+            </div>
          </div>
    </div>
 </template>
@@ -21,6 +23,9 @@ export default {
 </script>
 
 <style scoped>
+.categoryCont{
+   margin-left:-50px
+}
    .block{
       width: 20px;
       height:40px;
@@ -33,7 +38,7 @@ export default {
       font-weight:  600;
       line-height: 48px;
       letter-spacing: 1.44px;
-      margin-left: 80px;
+      /* margin-left: 80px; */
 
    }
    .arrsCont{
@@ -65,6 +70,9 @@ export default {
    }
    
    @media screen and (max-width:980px){
+      .categoryCont{
+         margin-left: 10px;
+      }
       .block{
          margin-left: 20px;
       }
