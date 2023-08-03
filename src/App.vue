@@ -12,7 +12,7 @@
     </div>
     <div class="cartContainer">
     <div class="searchbox" >
-      <input type="text" class="px-3" placeholder="What are you looking for?">
+      <input type="text" class="px-3 searchBox" placeholder="What are you looking for?">
       <span><i class="fa-solid fa-magnifying-glass text-center mt-2 mx-4 search"></i>
       </span>
     </div>
@@ -83,6 +83,10 @@ nav{
 }
 .routeContainer .route:hover{
   color:#DB4444;
+}
+.searchBox{
+  outline: none;
+  
 }
 .profile{
   position:relative;

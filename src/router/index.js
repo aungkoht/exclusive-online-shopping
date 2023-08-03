@@ -7,6 +7,7 @@ import PageNotFound from "../views/PageNotFound.vue"
 import Account from "../views/Account.vue"
 import Cart from "../views/Cart.vue"
 import Checkout from "../views/Checkout.vue"
+import ProductDetail from "../views/ProductDetail"
 
 const routes = [
   {
@@ -43,6 +44,11 @@ const routes = [
     path: "/checkout",
     name: "checkout",
     component: Checkout
+  },
+  {
+    path: "/productDetail",
+    name: "productDetail",
+    component: ProductDetail
   },
   {
     path: "/:catchAll(.*)",
